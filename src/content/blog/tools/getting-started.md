@@ -1,9 +1,9 @@
 ---
-title: 欢迎使用 astro-koharu
+title: Welcome to astro-koharu
 link: getting-started
 catalog: true
 date: 2024-01-01 00:00:00
-description: 欢迎使用 astro-koharu 博客主题！这是一个基于 Astro 的现代化博客系统，拥有优雅的界面和丰富的功能。
+description: Welcome to the astro-koharu blog theme! A modern blog system built on Astro with an elegant interface and rich features.
 tags:
   - 入门
   - Astro
@@ -12,57 +12,57 @@ categories:
 sticky: true
 ---
 
-欢迎使用 astro-koharu 博客主题！
+Welcome to the astro-koharu blog theme!
 
-## 关于这个主题
+## About This Theme
 
-astro-koharu 是一个基于 Astro 7.x 构建的现代化博客系统，设计灵感来自 Hexo 的 Shoka 主题。它具有以下特点：
+astro-koharu is a modern blog system built on Astro 7.x, inspired by the Hexo Shoka theme. Key features include:
 
-- **性能优异** - 基于 Astro 静态站点生成，加载速度快
-- **优雅设计** - 萌系/二次元风格，粉蓝配色
-- **功能丰富** - 多级分类、标签、目录、搜索等
-- **响应式** - 完美适配桌面和移动设备
+- **High Performance** - Static site generation with Astro, lightning-fast loading
+- **Elegant Design** - Anime-inspired aesthetic with pink and blue color scheme
+- **Feature Rich** - Multi-level categories, tags, table of contents, search, and more
+- **Responsive** - Perfect adaptation for desktop and mobile devices
 
-## 快速开始
+## Quick Start
 
-### 1. 配置你的博客
+### 1. Configure Your Blog
 
-编辑 `config/site.yaml` 文件：
+Edit the `config/site.yaml` file:
 
 ```yaml
 site:
-  title: 你的博客名称
-  author: 你的名字
-  description: 你的博客简介
-  # ...更多配置
+  title: Your Blog Name
+  author: Your Name
+  description: Your blog description
+  # ...more options
 ```
 
-### 2. 写第一篇文章
+### 2. Write Your First Post
 
-在 `src/content/blog/` 目录下创建 Markdown 文件：
+Create a Markdown file in the `src/content/blog/` directory:
 
 ```markdown
 ---
-title: 我的第一篇文章
+title: My First Post
 date: 2024-01-01
 tags:
-  - 标签1
+  - Tag1
 categories:
-  - 分类名
+  - CategoryName
 ---
 
-文章内容...
+Post content...
 ```
 
-### 3. 部署上线
+### 3. Deploy
 
-推荐使用 Vercel 一键部署：
+Deploy easily with Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/cosZone/astro-koharu)
 
-## 了解更多
+## Learn More
 
-- 查看 [Markdown 功能演示](/post/markdown-features) 了解所有 Markdown 增强功能
-- 查看 [使用指南](/post/astro-koharu-guide) 了解详细配置说明
+- Check out the [Markdown Features Demo](/en/post/markdown-features) for all Markdown enhancements
+- Check out the [Usage Guide](/en/post/astro-koharu-guide) for detailed configuration
 
-祝你使用愉快！
+Enjoy blogging!

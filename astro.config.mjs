@@ -224,6 +224,7 @@ if (contentConfig.enhanceCodeBlock) shikiTransformers.push(collapsibleCodeTransf
 // https://astro.build/config
 export default defineConfig({
   site: yamlConfig.site.url,
+  base: '/blog',
   output: 'static',
   compressHTML: true,
   markdown: {

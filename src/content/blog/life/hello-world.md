@@ -10,42 +10,42 @@ categories:
   - 随笔
 ---
 
-你好，世界！这是我的第一篇随笔。
+Hello, World! This is my first essay.
 
-## 关于这篇文章
+## About This Post
 
-这篇文章故意没有设置 `description` 字段，用于测试以下功能：
+This post intentionally does not set a `description` field, to test the following features:
 
-1. **自动描述提取** - 系统会自动从正文提取前 150 字作为描述
-2. **AI 摘要** - 如果运行了 `pnpm generate:summaries`，会使用 AI 生成的摘要
+1. **Auto Description Extraction** - The system automatically extracts the first 150 characters as the description
+2. **AI Summary** - If `pnpm generate:summaries` has been run, an AI-generated summary will be used
 
-## 随笔分类
+## The Essay Category
 
-随笔分类适合记录：
+The essay category is great for:
 
-- 生活感悟
-- 年度总结
-- 随想随记
-- 个人成长
+- Life reflections
+- Year-end reviews
+- Random thoughts
+- Personal growth
 
-## 写作建议
+## Writing Tips
 
-写博客是一件有趣的事情。这里有一些建议：
+Blogging is a fun activity. Here are some tips:
 
-### 保持更新
+### Stay Consistent
 
-定期更新能让博客保持活力。哪怕是简短的记录，也比长期沉寂好。
+Regular updates keep your blog alive. Even short entries are better than long silences.
 
-### 记录真实
+### Be Authentic
 
-真实的记录比完美的文字更有价值。不必追求每篇都是精品。
+Authentic records are more valuable than polished writing. Don't aim for perfection in every post.
 
-### 享受过程
+### Enjoy the Process
 
-写作本身就是一种思考和整理的过程，享受这个过程吧。
+Writing itself is a process of thinking and organizing — enjoy it.
 
-## 结语
+## Conclusion
 
-这就是一篇简单的随笔示例。希望你也能在这里记录自己的故事。
+This is a simple essay example. Hope you'll record your own stories here too.
 
-祝你写作愉快！
+Happy writing!

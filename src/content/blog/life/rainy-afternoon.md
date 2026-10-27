@@ -1,5 +1,5 @@
 ---
-title: 下雨的周六下午
+title: A Rainy Saturday Afternoon
 link: rainy-afternoon
 catalog: true
 date: 2026-04-18 17:40:00
@@ -12,12 +12,12 @@ colophon:
   - handwritten
 ---
 
-本来打算出门，下午两点开始下雨，就没去成。
+I meant to go out, but it started raining at two, so I stayed in.
 
-泡了一壶茶，把阳台的椅子挪到窗边，翻完了一本搁了很久的短篇集。书不厚，十来个故事，每篇讲的都是很小的事：一个人搬家，一个人等车，一个人在超市里找不到想买的东西。读的时候没什么感觉，合上书以后，反而想起好几个细节。
+I made a pot of tea, dragged the balcony chair over to the window, and finished a short story collection that had been sitting on the shelf for months. It is a thin book, a dozen or so stories, each about something small: someone moving house, someone waiting for a bus, someone who can't find what they came for at the supermarket. Nothing struck me while I was reading. After I closed it, a few details kept coming back.
 
-雨一直没停。楼下有人撑着伞遛狗，狗不太情愿，走两步就停下来甩毛。
+The rain never let up. Downstairs, someone was walking a dog under an umbrella. The dog was not convinced, stopping every few steps to shake itself off.
 
-傍晚收拾桌子，发现草稿箱里还有三篇没写完的文章。挑了一篇改到能发的程度，剩下两篇先放着。
+Tidying the desk in the evening, I found three unfinished posts in my drafts folder. I got one of them into publishable shape and left the other two for later.
 
-今天就这样，挺好的。
+That was the day. It was a good one.

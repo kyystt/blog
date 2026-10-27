@@ -1,9 +1,9 @@
 ---
-title: 示例周刊 Vol.2 | 把手边的工具用顺
+title: Example Weekly Vol.2 | Getting Comfortable With Everyday Tools
 link: weekly-example-2
 catalog: true
 date: 2025-03-14 20:30:00
-description: 第二期示例周刊：聊聊静态搜索、代码格式化和博客备份这些不起眼但天天在用的东西，顺便演示系列文章的上一期、下一期导航。
+description: The second example issue covers static search, formatting, and blog backups, the unglamorous tools used every day, and shows the previous and next issue navigation of a series.
 cover: /img/cover/6.webp
 excludeFromSummary: true
 tags:
@@ -13,49 +13,49 @@ categories:
   - 周刊
 ---
 
-这一期没有大新闻，主要聊几样每天都在用、但很少专门写的工具。顺带一提，从这一期开始，系列页面会把每期标题里 `Vol.N` 之后的部分当作本期标题，所以标题写成「示例周刊 Vol.2 | 把手边的工具用顺」这样就行。
+No big news this issue. Instead, a few tools I use every day but rarely write about. One note before we start: the series page treats whatever follows `Vol.N` in a title as the issue headline, so a title like "Example Weekly Vol.2 | Getting Comfortable With Everyday Tools" is all you need.
 
-## 本期推荐
+## Picks
 
-### 本博客主题
+### This blog theme
 
-先放一张链接卡片。链接单独占一段时，构建阶段会去抓取页面的 Open Graph 信息，渲染成卡片：
+First, a link card. When a link sits alone in its own paragraph, the build fetches the page's Open Graph data and renders it as a card:
 
 https://github.com/cosZone/astro-koharu
 
-抓取结果会写进 `.cache/og-data.json`，下次构建直接读缓存；抓取失败也不会让构建失败，只是退回成普通链接。
+The result is written to `.cache/og-data.json` and reused on the next build. A failed fetch does not fail the build; the link simply stays a plain link.
 
-### 在 React 里嵌入推文
+### Embedding tweets in React
 
 https://github.com/vercel/react-tweet
 
-主题的推文嵌入就是基于这个库做的。如果你的文章里经常引用推文，可以在 `config/site.yaml` 的 `content.enableTweetEmbed` 里开关。
+The theme's tweet embeds are built on this library. If you quote tweets often, toggle them with `content.enableTweetEmbed` in `config/site.yaml`.
 
-## 工具
+## Tools
 
-### 静态搜索
+### Static search
 
-[Pagefind](https://pagefind.app/) 在构建后扫描生成的 HTML，产出分片的索引文件。访客搜索时只下载需要的那几片，不需要任何服务端。对于几百篇文章的博客来说，这个方案几乎没有维护成本。
+[Pagefind](https://pagefind.app/) scans the generated HTML after the build and writes a chunked index. Visitors download only the chunks a search needs, and no server is involved. For a blog with a few hundred posts, it needs almost no maintenance.
 
-### 格式化与检查
+### Formatting and linting
 
-仓库用 [Biome](https://biomejs.dev/) 同时负责格式化和 lint。提交前跑一次：
+The repository uses [Biome](https://biomejs.dev/) for both formatting and linting. Run it once before committing:
 
 ```bash command:("$":1)
 pnpm lint:fix
 ```
 
-### 备份
+### Backups
 
-升级主题前先备份一下内容和配置：
+Back up your content and config before upgrading the theme:
 
 ```bash command:("$":1-2)
 pnpm koharu backup
 pnpm koharu list
 ```
 
-## 一句话
+## One line
 
-> 工具顺手的标志是你忘了它的存在。
+> A tool fits your hand when you forget it is there.
 
-下一期聊聊写作环境本身。
+Next issue: the writing setup itself.
