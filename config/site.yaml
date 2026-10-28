@@ -19,7 +19,7 @@ site:
   avatar: /img/avatar.webp # 网站头像
   showLogo: false # 是否显示图形 Logo；默认显示站点名称，启用后可替换 src/assets/svg/logo.svg
   author: Author # 作者名称 - 请修改为你的名字
-  url: https://kyystt.github.io/blog # 站点 URL 用于 RSS 和 SEO
+  url: https://kyst.fyi # 站点 URL 用于 RSS 和 SEO
   defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
   startYear: 2026 # 建站年份
   timezone: America/Sao_Paulo # 时区配置 (IANA 格式)，用于日期显示和处理
@@ -67,6 +67,7 @@ categoryMap:
   Computer Science: computer-science
   Projects: projects
   Personal: personal
+  Weekly: weekly
 
   # Secondary categories (for nested paths)
   Web Security: web-security
@@ -129,7 +130,15 @@ featuredCategories:
 #   highlightOnHome: 是否在首页高亮显示最新文章（可选，默认 true，显式设为 false 可禁用）
 #   links: 相关链接配置（可选）
 # -----------------------------------------------------------------------------
-featuredSeries: []
+featuredSeries:
+  - slug: weekly
+    categoryName: Weekly
+    label: Weekly
+    fullName: Weekly
+    description: "Things I've been learning, watching, and doing."
+    cover: /img/weekly_header.webp
+    enabled: true
+    icon: ri:newspaper-line
      # chrome: https://chromewebstore.google.com/detail/your-extension-id # (可选) 浏览器插件
       # docs: https://your-docs-url # (可选) 文档链接
   # 示例：添加第二个系列（取消注释启用）
@@ -213,83 +222,51 @@ social:
 friends:
   groups:
     - id: familiar
-      title: 熟人
-      description: 常有交流、彼此熟悉的朋友。
+      title: Friends
+      description: "People I know."
     - id: community
-      title: 友链小伙伴
-      description: 通过博客结识、交换友链的小伙伴。
+      title: Community
+      description: "People I've met through their blogs."
     - id: following
-      title: 单向关注
-      description: 喜欢阅读、推荐给大家的博客。
+      title: Following
+      description: "Sites I enjoy reading."
   intro:
-    title: 友情链接 # 页面标题
-    subtitle: 欢迎交换友链！ # 页面副标题
-    applyTitle: 申请友链 # 申请区块标题
-    applyDesc: 请在本页留言，格式如下 # 申请说明
-    exampleYaml: | # 申请格式示例，会显示在页面上
-      - site: 你的博客名称 # 站点名称
-        url: https://your-blog.com/ # 站点网址
-        owner: 你的昵称 # 昵称
-        desc: 站点简介 # 站点简介
-        image: https://your-blog.com/avatar.jpg # 头像链接
-        color: "#ffc0cb" # 主题色（可选）
-  data: # 友链列表；同组内按这里的顺序展示
-    - site: 余弦の博客
-      url: https://blog.cosine.ren
-      owner: cos
-      desc: FE / ACG / 手工 / 深色模式强迫症 / INFP / 兴趣广泛养两只猫的老宅女 / remote
-      image: https://blog.cosine.ren/img/avatar.webp
-      color: '#ed788b'
-      group: familiar
-    - site: 示例博客 A
-      url: https://example-a.com
-      owner: Alice
-      desc: 一个热爱技术的开发者
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Alice
+    title: Friends
+    subtitle: "Other corners of the internet."
+    applyTitle: Exchange links
+    applyDesc: "Want your site here? Find my contact details on the About page."
+    exampleYaml: |
+      - site: Your site
+        url: https://your-blog.com/
+        owner: Your name
+        desc: A short description
+        image: https://your-blog.com/avatar.jpg
+        color: "#ffc0cb"
+  data:
+    - site: Kitagawa
+      url: https://kitagawa.lol/
+      owner: Kitagawa
+      desc: "A friend's corner of the internet."
+      image: /img/avatar.webp
       color: '#BEDCFF'
       group: familiar
-    - site: 示例博客 B
-      url: https://example-b.com
-      owner: Bob
-      desc: 分享生活与技术的小站
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Bob
-      color: '#FBC1CC'
-      group: community
-    - site: 示例博客 C
-      url: https://example-c.com
-      owner: Carol
-      desc: 记录学习与成长的地方
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Carol
-      color: '#ABDCFF'
-      group: community
-    - site: 示例博客 D
-      url: https://example-d.com
-      owner: Dave
-      desc: 喜欢折腾键盘和终端
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Dave
-      color: '#C8E6C9'
-      group: community
-    - site: 示例博客 E
-      url: https://example-e.com
-      owner: Eve
-      desc: 设计、插画与日常碎碎念
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Eve
-      color: '#E1BEE7'
-      group: following
-    - site: 示例博客 F
-      url: https://example-f.com
-      owner: Frank
-      desc: 长文写作与阅读笔记
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Frank
-      color: '#FFE0B2'
-      group: following
-    # 不写 group（或写了不存在的分组 id）的友链会归入最后的「未分组」
-    - site: 示例博客 G
-      url: https://example-g.com
-      owner: Grace
-      desc: 还没想好放在哪一组的新朋友
-      image: https://api.dicebear.com/7.x/avataaars/svg?seed=Grace
-      color: '#B2EBF2'
+
+    - site: Davizin
+      url: https://davizin.com
+      owner: Davi
+      desc: "davii's awesome blog"
+      image: /img/davi.webp
+      color: '#BEDCFF'
+      group: familiar
+
+    - site: Vaz
+      url: "https://vazleo.me/"
+      owner: Leonardo
+      desc: "Trust me"
+      image: /img/vaz.webp
+      color: '#BEDCFF'
+      group: familiar
+
 
 # =============================================================================
 # Announcements
@@ -833,7 +810,7 @@ christmas:
 #   icon: 导航图标，Iconify 格式（可选，默认：ri:bilibili-fill）
 # -----------------------------------------------------------------------------
 bangumi:
-  userId: cosine
+  userId: '1295887'
   # label: 追番
   # icon: ri:bilibili-fill
 
