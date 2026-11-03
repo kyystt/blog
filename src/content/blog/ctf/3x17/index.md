@@ -11,6 +11,8 @@ tags:
   - ROP
   - arbitrary-write
   - stack-pivot
+colophon:
+  - spoiler
 draft: false
 ---
 
