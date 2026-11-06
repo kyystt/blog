@@ -143,6 +143,8 @@
   h4::before,
   h5::before,
   h6::before {
+    display: none;
+
     content: attr(data-level);
     position: absolute;
     left: -1.5em;
